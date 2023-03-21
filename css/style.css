@@ -1,0 +1,90 @@
+body {
+    font: 100% Verdana;
+    Margin: 20px;
+    Line-height: 26px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+}
+#banner {
+    background-image: url(https://th.bing.com/th/id/OIP.8SxubBc_AjGlZNyI7vpWjwHaCU?pid=ImgDet&rs=1);
+    padding:
+}
+#menulist {
+    padding: 0px;
+    position: 
+}
+#menulist li {
+    width: 165px;
+    float: left;
+    background-color: gray;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    text-align: center:
+    cursor: pointer;
+}
+
+#menulist li a {
+    color: white;
+    text-decoration: none;
+}
+#servicelist {
+    padding: 0px;
+    positio: relative;
+    overflow: auto;
+}
+
+h1, h2, h3, {
+    Color: green;
+}
+.serviceitem {
+    width: 30%;
+    float: left;
+    background-color: gray;
+    List-sytle-type: none;
+    margin; 4px;
+    padding: 2px;
+    text-align: center;
+    border: radius;
+    Height: 250px;
+}
+#remuselist {
+    padding: 0px;
+    position: relative;
+    overflow: auto;
+    
+
+}
+.resumeitem {
+    width: 30%
+    position: relative;
+
+}
+.section-heading {
+    text-align: center;
+    margin-top: 0;
+    margin-botoom: 50px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    line-height: 14px;
+}
+#backtotop {
+    text-decoration: none;
+    position:fixed;
+    bottom: 10px;
+    right: 30px;
+    z-index: 99px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius; 10px;
+    font-size: 18px;
+}
