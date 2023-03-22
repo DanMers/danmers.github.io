@@ -3,6 +3,12 @@ body {
     Margin: 20px;
     Line-height: 26px;
 }
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
 .container {
     width: 960px;
     margin: 0 auto;
@@ -10,12 +16,22 @@ body {
     overflow: auto;
 }
 #banner {
-    background-image: url(https://th.bing.com/th/id/OIP.8SxubBc_AjGlZNyI7vpWjwHaCU?pid=ImgDet&rs=1);
-    padding:
+    background-image: url(https://www.beavismorgan.com/wp-content/uploads/2020/04/Services.jpg);
+    padding: 30px;
+    color: black;
 }
 #menulist {
     padding: 0px;
-    position: 
+    position: relative;
+    overflow: auto;
+}
+#menulist li {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: opx opx 5px #ccc;
 }
 #menulist li {
     width: 165px;
@@ -24,7 +40,7 @@ body {
     list-style-type: none;
     margin: 4px;
     padding: 2px;
-    text-align: center:
+    text-align: center;
     cursor: pointer;
 }
 
@@ -34,40 +50,46 @@ body {
 }
 #servicelist {
     padding: 0px;
-    positio: relative;
+    position: relative;
     overflow: auto;
 }
 
-h1, h2, h3, {
+#menulist li:hover {
+    background-color: #000000;
+}
+h1, h2, h3 {
     Color: green;
 }
 .serviceitem {
     width: 30%;
     float: left;
-    background-color: gray;
-    List-sytle-type: none;
-    margin; 4px;
+    background-color: rgb(206, 206, 206);
+    List-style-type: none;
+    margin: 4px;
     padding: 2px;
     text-align: center;
-    border: radius;
+    border-radius: 10px;
     Height: 250px;
 }
-#remuselist {
+#resumelist {
     padding: 0px;
     position: relative;
     overflow: auto;
-    
-
 }
 .resumeitem {
-    width: 30%
-    position: relative;
-
+    width: 30%;
+    float: left;
+    /* background-color: rgb(168, 166, 166); */
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    /* border-radius: 10px; */
 }
 .section-heading {
     text-align: center;
     margin-top: 0;
-    margin-botoom: 50px;
+    margin-bottom: 50px;
 }
 footer {
     text-align: center;
@@ -85,6 +107,6 @@ footer {
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius; 10px;
+    border-radius: 10px;
     font-size: 18px;
 }
