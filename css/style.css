@@ -34,25 +34,30 @@ nav ul li {
     padding: 10px 25px;
 }
 nav ul li a {
+    
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    text-transform:capitalize;
+    border: 2px solid transparent;
+    font-weight:bold;
+    padding: 13px 25px;
+    border-radius: 30px;
+    transition: .4s;
+}
+nav ul li a:hover {
+    background-color: #0095f9;
+    border: 2px solid transparent;
+    font-weight:bold;
+    border-radius: 30px;
+}
+nav ul li a:hover {
+    background-color: transparent;
+    border: 2px solid #0095f9;
+    cursor: pointer;
 }
 nav ul li a:hover{
     color: #0095f9;
     transition: .4s;
 }
-/* .btn{
-    background-color:#0095f9;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
-} */
 .btn:hover{
     transform: scale(1.2);
 }
@@ -78,7 +83,6 @@ h4{
     font-size: 20px;
 }
 .newsletter form{
-
     width: 380px;
     max-width: 100%;
     position: relative;
@@ -109,8 +113,10 @@ h4{
     background-color: #191919;
 }
 .about img{
+    border-color: white;
     height: auto;
     width: 430px;
+    border-radius: 50%;
 }
 .about-text{
     width: 550px;
@@ -161,11 +167,17 @@ button:hover{
 .service{
     background: #101010;
     width: 100%;
-    padding: 100px 0px;
+    padding: 20px 0px;
+}
+
+.skills{
+    background: #101010;
+    width: 100%;
+    padding: 10px 0px;
 }
 .title h2{
     color: white;
-    font-size: 55px;
+    font-size: 40px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
@@ -188,7 +200,7 @@ button:hover{
     text-align: center;
 }
 .card i{
-    font-size: 40px;
+    font-size: 35px;
     display: block;
     text-align: center;
     margin: 25px 0px;
@@ -199,11 +211,18 @@ h5{
     font-size: 23px;
     margin-bottom: 15px;
 }
-.pra p{
-    color: #fcfc;
-    font-size: 16px;
-    line-height:27px;
-    margin-bottom: 25px;
+.pra p {
+    color: white;
+    height: auto0;
+    width: 360px;
+    font-size: 25px;
+    text-align: center;
+}
+.pra img {
+    border-color: white;
+    height: auto;
+    width: 300px;
+    border-radius: 10%;
 }
 .card .button{
     background-color: #0095f9;
@@ -212,7 +231,7 @@ h5{
     border: 2px solid transparent;
     font-weight:bold;
     padding: 9px 22px;
-    border-radius: 30px;
+    border-radius: 10px;
     transition: .4s;
 }
 .card .button:hover{
@@ -277,6 +296,20 @@ footer p:nth-child(2){
     text-align: center;
     line-height: 26px;
 }
+.details a{
+    color: #0095f9;
+    font-size: 17px;
+    width: 500px;
+    text-align: left;
+    line-height: 26px;
+    font-size: 18px;
+}
+.details a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+    background-color: transparent;
+    cursor: pointer;
+}
 .social {
     display: flex;
 }
@@ -306,5 +339,5 @@ footer p:nth-child(2){
     position: absolute;
     color: #0095f9;
     bottom: 35px;
-    font-size: 14px;
+    font-size: 18px;
 }
